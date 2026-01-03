@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Navbar from './Navbar'
-import { db } from '../Firebase'
+import { db } from '../firebase'
 import { onSnapshot, collection, doc, deleteDoc } from 'firebase/firestore'
 import { getAuth } from 'firebase/auth'
 import { Link } from 'react-router-dom'
